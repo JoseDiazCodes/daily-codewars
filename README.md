@@ -22,7 +22,7 @@ For those who want to join in on the fun, you're welcome to add your own solutio
 
 # Current Streak
 
-My current streak for daily challenges is: 05 day. Help me stay motivated by starring this repository!
+My current streak for daily challenges is: 08 day. Help me stay motivated by starring this repository!
 
 Let's Connect
 If you'd like to connect or just chat about coding, find me on:
