@@ -1,47 +1,22 @@
-// // do I need to access an index?
-// //find if erickson in my array
+// link: https://www.codewars.com/kata/56efc695740d30f963000557/train/javascript
+//solution
+String.prototype.toAlternatingCase = function () {
+	let array = this.split("");
+	let result = [];
 
-// let arr = ["John", "Doe", "Erickson", "Smith", "Jane", "Brown"];
-// console.log(arr.indexOf("Brown"));
+	for (let letter of array) {
+		if (letter === letter.toLowerCase()) {
+			result.push(letter.toUpperCase());
+		} else if (letter === letter.toUpperCase()) {
+			result.push(letter.toLowerCase());
+		} else {
+			result.push(letter);
+		}
+	}
+	return result.join("");
+};
 
-// function forConditional() {
-// 	for (let i = 0; i < arr.length; i++) {
-// 		if (arr[i] === "Erickson") {
-// 			return true;
-// 		}
-// 	}
-// 	return false;
-// }
-
-// function forOf() {
-// 	for (let element of arr) {
-// 		if (element === "Erickson") {
-// 			return true;
-// 		}
-//             return false;
-// 	}
-
-// }
-
-// // let obj = {
-// //     name: "jose",
-// //     lastName: "diaz"
-// // }
-
-// console.log(forConditional(), "for let i loop");
-// console.log(forOf(), "for of loop");
-
-// // i, e, n
-
-let nameOf = "hello world";
-let letters = nameOf.split("");
-
-console.log(letters); // Output: ["j", "o", "s", "e"]
-
-let arr2 = ["h", "e", "l", "l", "o", " ", "w", "o", "r", "l", "d"];
-let arr = ["hello", "world"];
-
-// let arr2joined = arr2.join(" ")
-let hi = arr2.join("");
-
-console.log(hi);
+// idgaf about no indexes
+// numbers are unchanged
+// strings cannot be mutated so turn into array
+// using split and join
