@@ -1,7 +1,7 @@
 // https://www.codewars.com/kata/59441520102eaa25260000bf/train/javascript
 
 function unusualFive() {
-	return "hello".length;
+	return "JoseD".length;
 }
 
 // simple I immediately thought of using any string thats five letters and returning the length.
