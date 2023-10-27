@@ -33,3 +33,5 @@ function flattenAndSort(array) {
 // let result (result.push)
 
 // setting the data type of array
+
+//feedback give two options to solve it.
