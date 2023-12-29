@@ -13,3 +13,7 @@ pids
 *.out
 *.pid
 *.gz
+
+# Custom folders
+examples/
+exampleTests/
